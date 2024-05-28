@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <div>
         {/* navbar */}
-        <nav className="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-3">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-3 top-0">
                 <div className="container-fluid p-3">
                     <div>
                     <a className="navbar-brand" href="#">
@@ -87,6 +87,7 @@ const Home = () => {
         }}
 
         className='text-light d-flex align-items-center justify-content-center flex-column gap-2'
+        id='section-1'
         >
             <div className='d-flex align-items-center flex-column text-center'>
             <h1 className='fw-bold'>Are you a Supplier?</h1>

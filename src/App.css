@@ -21,6 +21,9 @@
 }
 
 @media only screen and (max-width:425px){
+  #section-1{
+    margin-top: 6rem;
+  }
   #remove-width{
     width: 100% !important;
   }
