@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <div>
         {/* navbar */}
-        <nav className="navbar navbar-expand-lg bg-body-tertiary ">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-3">
                 <div className="container-fluid p-3">
                     <div>
                     <a className="navbar-brand" href="#">
@@ -254,6 +254,7 @@ const Home = () => {
             </div>
 
         </section>
+
         <footer style={{backgroundColor:"#123557"}} className='p-4'>
             <div className='border border-start-0 border-end-0 border-secondary container d-flex justify-content-around align-items-center flex-column flex-lg-row'>
                 <div className='d-flex align-items-center p-4 text-white justify-content-between' style={{gap:"2rem"}} id='footer-content'>
